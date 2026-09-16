@@ -37,10 +37,7 @@ need to look.
 | `notes/glossary.md` | Domain vocabulary | Anyone, one definition per term |
 | `notes/decisions.md` | Cross-cutting answers spanning features | `/ba-answer` |
 
-## The two rules
-
-**Only specs with `status: approved` are implementable.** Anything else is in progress. Claude
-labels any answer drawn from a draft as provisional.
+## The one rule
 
 **The question store and decisions log are append-only.** When an answer changes, a new entry
 supersedes the old one and says so. Overwriting destroys the record of why earlier code was
@@ -68,5 +65,5 @@ too. An answer that lives only in the question store leaves the spec still incom
 git pull
 ```
 
-Claude pulls before answering when it can. Push after `/ba-answer` and `/ba-approve` so the team
+Claude pulls before answering when it can. Push after `/ba-answer` and after editing a spec so the team
 sees new decisions — an answer sitting uncommitted on the BA's laptop helps nobody.
