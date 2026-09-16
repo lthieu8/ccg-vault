@@ -1,0 +1,10 @@
+# Obsidian workspace state - per-user, causes conflicts if shared
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.trash/
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
