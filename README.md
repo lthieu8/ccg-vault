@@ -20,8 +20,11 @@ It will never guess. If the vault does not say it, Claude does not tell you it â
 code, not by analogy with another feature, not from what seems obvious. An answer you can act on
 without double-checking is the entire point; a plausible guess would destroy that.
 
-Requires the `ccg-ba` plugin. Everything here is plain markdown, so the files are readable without
-Obsidian if you ever need to look.
+Requires the `ccg-ba` plugin, and the `CLAUDE.md` it ships in your source repo â€” that file is what makes
+these rules apply to every question you ask, not only the ones you remember to prefix with `/ask`.
+
+Everything here is plain markdown, so the files are readable without Obsidian if you ever
+need to look.
 
 ## Layout
 
