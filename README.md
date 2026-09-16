@@ -32,7 +32,7 @@ need to look.
 |---|---|---|
 | `00-inbox/` | BA source documents, as delivered | BA. Never edited after drop. |
 | `01-questions/` | Q&A store, one file per feature. Answered and open. | `/ask` queues, `/ba-answer` resolves |
-| `02-specs/` | Validated specs. The primary source of truth. | BA, via `/ba-new` and `/ba-check` |
+| `02-specs/` | Validated specs. The primary source of truth. | BA, via `/ba-intake` |
 | `reports/` | Gap-check output. Disposable. | `/ba-check` |
 | `notes/glossary.md` | Domain vocabulary | Anyone, one definition per term |
 | `notes/decisions.md` | Cross-cutting answers spanning features | `/ba-answer` |
